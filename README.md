@@ -1,22 +1,22 @@
 # Online Sales Analysis
 
-## Opis projekta
-Ovaj projekat omogućava upravljanje proizvodima i korpom kupca za online prodavnicu koristeći OOP u Pythonu.
+## Project Description  
+This project enables management of products and a shopping cart for an online store using OOP in Python.
 
-## Klase i funkcionalnosti
+## Classes and Functionalities
 
-### Product
-- Atributi: name, price, quantity
-- Metode: display_info, update_quantity
+### Product  
+- Attributes: `name`, `price`, `quantity`  
+- Methods: `display_info`, `update_quantity`
 
-### ProductManager
-- Dodavanje, prikaz, uklanjanje proizvoda
-- Izračunavanje ukupne vrednosti inventara
+### ProductManager  
+- Adding, displaying, and removing products  
+- Calculating the total value of the inventory
 
-### Cart
-- Dodavanje proizvoda u korpu
-- Prikaz sadržaja korpe
-- Izračunavanje ukupne vrednosti korpe
+### Cart  
+- Adding products to the cart  
+- Displaying cart contents  
+- Calculating the total value of the cart
 
-## Autor
+## Author  
 Enis Gosić

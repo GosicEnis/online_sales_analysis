@@ -22,3 +22,7 @@ class ProductManager:
     # Display the total value of all products
     def total_value(self):
         return sum(p.price * p.quantity for p in self.products)
+
+    # Add a method to remove products by name
+    def remove_product_by_name(self, name):
+        self.products(p for p in self.products if p.name != name)
